@@ -732,21 +732,21 @@ __BusyBox is a lightweight software package that works in resource-constrained c
 
 2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)***\
 
-__NETWORK         ID NAME     DRIVER     SCOPE
-1990939d3101    bluenet     bridge     local
-42ac9a299c6b    bridge      bridge     local
-5f5b9ee8c8bb    host        host       local
-472bf893d107    none        null       local
-b9473a1e1e6d    rednet      bridge     local__.
+__NETWORK ID     NAME      DRIVER    SCOPE
+06524270322f   bluenet   bridge    local
+39267b2b2a3a   bridge    bridge    local
+dbf26e17cd1a   host      host      local
+56163ac264c5   none      null      local
+75d677f816ea   rednet    bridge    local__.
 
 3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)***\
 
-**C1 Bluenet Gateway: 172.18.0.1** 
+**C1 Bluenet Gateway: 172.18.0.1**\ 
 **C2 Rednet Gateway: 172.19.0.1**
 
 4. What is the network address for the running container c1 and c2? ***(1 mark)***\
 
-**C1 Bluenet Network:172.18.0.2**
+**C1 Bluenet Network:172.18.0.2**\
 **C2 Rednet Network:172.19.0.2**
 
 5. Using the command ```docker exec c1 ping c2```, which basically tries to do a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)***\
