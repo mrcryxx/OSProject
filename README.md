@@ -26,11 +26,11 @@ Team Mates:
 
 1. What is the link of the fork OSProject in your repository. ***(1 mark)***
 
-*** __https://github.com/mrcryxx/OSProject__.***
+ __https://github.com/mrcryxx/OSProject__.
 
 2. How many files and folders are in this repository. ***(1 mark)***
 
-*** __1 file (README.md) and 1 folder (images)__.***
+ __1 file (README.md) and 1 folder (images)__.
 
 
 ## Exploring github codespaces
@@ -64,15 +64,15 @@ Team Mates:
 
 1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)***
 
-*** __Ubuntu Linux__.***
+ __Ubuntu Linux__.
 
 2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)***
 
-*** __1st option is, 4 vCPUs, 8GB RAM, and 32GB disk. Second option is, 8 vCPUs, 16GB RAM, and 64GB disk__.***
+__1st option is, 4 vCPUs, 8GB RAM, and 32GB disk. Second option is, 8 vCPUs, 16GB RAM, and 64GB disk__.
 
 3. Why must we commit and sync our current work on source control? ***(1 mark)*** 
 
-*** __If you don't commit and sync, your work will be lost. It won't save your work on the main repository__.***
+__If you don't commit and sync, your work will be lost. It won't save your work on the main repository__.
 
 ## Exploring the Terminal
 
@@ -656,7 +656,7 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 ***Questions:***
 
 1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** \
-*** __It is showing total 0 because there is no file currently present in myroot directory__.***
+__It is showing total 0 because there is no file currently present in myroot directory__.
 ```bash
 @mrcryxx ➜ /workspaces/OSProject/myroot (main) $ ls -l /workspaces/OSProject/myroot
 total 0
@@ -667,7 +667,7 @@ total 0
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Yes. You can change the permission__.***
+__Yes. You can change the permission__.
 ```bash
 @mrcryxx ➜ /workspaces/OSProject/myroot (main) $ sudo chown -R codespace:codespace /workspaces/OSProject/myroot
 @mrcryxx ➜ /workspaces/OSProject/myroot (main) $ ls -l /workspaces/OSProject/myroot
@@ -677,7 +677,7 @@ total 8
 drwxrwxrwx+ 2 codespace codespace 4096 Jun 15 13:36 .
 drwxrwxrwx+ 5 codespace root      4096 Jun 18 14:39 ..
 ```
-*** __This indicates that the files are now owned by 'codespace' and have the permissions 'drwxrwxrwx+'__.***
+__This indicates that the files are now owned by 'codespace' and have the permissions 'drwxrwxrwx+'__.
 
 ## You are on your own, create your own static webpage
 
