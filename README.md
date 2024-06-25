@@ -732,17 +732,16 @@ __BusyBox is a lightweight software package that works in resource-constrained c
 
 2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)***
 ```
-__NETWORK ID     NAME      DRIVER    SCOPE
+NETWORK ID     NAME      DRIVER    SCOPE
 06524270322f   bluenet   bridge    local
 39267b2b2a3a   bridge    bridge    local
 dbf26e17cd1a   host      host      local
 56163ac264c5   none      null      local
-75d677f816ea   rednet    bridge    local__.
+75d677f816ea   rednet    bridge    local.
 ```
 3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)***
 
-**C1 Bluenet Gateway: 172.18.0.1**\ 
-**C2 Rednet Gateway: 172.19.0.1**
+__C1 Bluenet Gateway: 172.18.0.1 and C2 Rednet Gateway: 172.19.0.1__
 
 4. What is the network address for the running container c1 and c2? ***(1 mark)***
 
